@@ -1,0 +1,83 @@
+great book
+
+I liked it. It was a good read. If you are already familiar with STA then this might make for a good little refresher.
+
+this book has all the information you need to be a good software tester. from someone new to more experienced professionals
+
+My first impressions are not favorable. I was hoping for more discussion of continuous integration, fuzz testing, configuration management and man-management issues connecting development, QA and the Business as a whole. Instead, the book appears to be an unimaginative (if thorough) treatment of UI automation that smells of 1990s era waterfall development.
+
+I bought this book because I was new to software quality assurance, yet placed in charge of an automated testing effort. This book clearly encapsulates years of experience -- you can almost feel the pain the authors must have experienced as they learned these lessons the hard way! I have already avoided making a number of mistakes.
+The authors organized the material effectively and wrote it in a way that promotes skimming and scanning. By reading the first few sentences of a section, you will know whether you are interested in the section. If you're not interested, skip to the next section. The authors even occasionally tell you what sections you can skip should that material not apply to your situation.
+These skimming and scanning aids are important because the text itself is frequently unexciting and cumbersome. There's not much to do about the former -- nuts and bolts are hard to make exciting. I hope, however, that the authors will consider a good edit for more vigorous writing should they update this book for a second edition.
+
+Book review
+Mark Fewster and Dorothy Graham Software Test Automation Addison Wesley, 1999 ISBN 0-201-33140-3
+A book for beginners in test automation. Everything you always wanted to know about test automation, but never dared to ask, and the tool suppliers probably wonÕt tell you.
+This book is a must for every serious test manager. It is not only about automation. It is really about test architecture and test suite design. Most other books are about how to design test cases, or how to manage testing. This book is about designing the whole stuff into such a form that you can maintain it, that it will survice maintenance, and that you can automate it. The background is test automation. Many examples show the testware design pitfalls in building automated tests. But it hit me how useful the book is to any testing effort, even manual testing.
+The book has two parts. Part 1 is a detailed guide to designing automated (or not totally automated) tests. Questions of selecting and introducing test tools are also discussed. Part 2 contains 15 guest chapters, written by people who have experience in test automation, sharing their experience. These chapters vary in style and are rather short.
+There is a readers guide, It shows what te read if you have different intentions and know more or less from before.
+Overview of part 1, the Test Automation Design Part.
+Chapter 1 gives the context of test automation. It places the different tools into a test model and warns us of naive belief in and application of automation.
+Chapter 2 shows the results of capture and playback. At the end of this chapter, the reader will have understood the limited scope of application of this. Problems with script robustness and automatic results comparison are shown.
+From chapter 3, the focus changes to scripting. The chapter presents the five levels of generating test scripts, from linear through structures, shared, data-driven to keyword based. The reader will soon see that investment in scripting can pay off. The benefits of data driven or keyword driven testing are clearly shown. The only negative comment is that keyword driven testing, the most advanced and modern approach, is not shown to the same detail as the other techniques. However, these techniques are presented by authors of methodologies and real users in chapters 22 to 25.
+Chapter 4 shows the practical details of automated verification of test results. There are lots of methods and pitfalls. The main possibilities are dynamic verification (during running the tests) and static verification (afterwards. The other option is how much to verify. In principle, everything may be interesting. But this costs both work time, maintenance effort, storage, and makes tests less robust and more proine to maintenance. An interesting alternative is to design a broad smoke test where as much as possible is captures and verified, and then a large main test, where every test only vewwrifies its main objective. The authors also show different methods for comparing ÒexoticÓ output. One objection is the shallow section on testing embedded systems. At least for telecom systems, but also other ÒstandardÓ technical interfaces, lots of commercial tools exist that can be used to verify output in a problem oriented and intelligent way. There should also be some more mention about verifying time correctness of system outputs. There might also be some more focus on the use of check sums, statistical selection out of large amounts of data etc.
+Chapter 5 shows a possible architecture of the test set. This chapter applies just as well to manual as to automated testing. It fills a hole in IEEE Standard 829, namely proposition as to how to structure the detailed test material, the scripts, input data, utilities, expected results, and actual results, togehter with all other information. The main idea behind the proposed directory structure and naming conventions is to make it easy to maintain and find through. It should also be easry to copy any needed test sets to a platform where they are needed.
+There could be more different approaches, naturally, but the presented approach would work well and scale up. There could also be a cross reference to what IEEE 829 contains, and some example about how to use internet technology to document test structure, but all this is of minor disadvantage. This chapter is valuable to anyone who needs to structure test material.
+Chapter 5 and 6 are a bit special, as they are as useful for automated, as for nonautomated testing. They concern the structure of the testing material, all the invoilved files, and the preprocessing and postprocessing. These chapters fill a hole in IEEE Standard 829, where no consideration is given to the practical details of building up and maintaining test material. A tool independent structure is given, and advice about how to connect the material with tools. Chapter 6 is an eye opener to the naive user of test automation tools: Preprocessing and postprocessing tasks must be automated, but are not in the scope of the commercial tools.
+Chapter 7 presents other issues about test suite maintenance and maintainability. This is somehow good old material and knowledge. It one uses the good old rules for structured design and programing, and scheduled cleaning up of programs, the same could be applied to test amintenance and test material standards. Chapter 7 serves as a useful reminder about what you think you already knew, but maybe forgot in the concrete case.
+Chapter 8 gives ideas about how to measure both testing and automated testing. For a metrics fan, this chapter is too short. It only outlines lots of examples of what can be done and why, but does not go into detail. On the other hand, there is enough literature elsewhere about this. Many of the proposed measurements are not very precise, but good advice to Çthe poor manÈ who has not measured much and has to fight for any resources to measure anything. The idea is: Anything which is of interest can be made measurable in some way, maybe not the ideal way and maybe not precisely. But any measurement is better than none. The chapter does a useful job in that respect.
+Chapter 9 is a collection of points that have no natural place elsewhere. It includes short discussions on what to automate and what not, how to select tests, the order of running them, tricks to minimize time for failure analysis, deciding the status of a test. Most of the points are well known and not discussed in much detail. A good section is about test status, where the authors present some good ideas about how to handle known bugs in the products that are not going to be fixed for a while (and failed tests for such bugs).
+Chapter 10 and 11 concern selecting and introducing a test tool. Much of these chapters are general and could be read by anyone having to select and implement any software tool. What I am missing here is more specific information about concrete test automation tool features to ask for. The general questions to tool vendors are useful, but more concrete advice special for test automation tools is lacking. A few concrete references to test tool functionality overviews would have been helpful here.
+In all, I found part 1 very useful, and well worth the time spent reading.
+Part 2 is different. There are case studies about successful introduction of test automation, the problems solved, the benfits achieved, and the difficulties met. Chapter 12 to 18, as well as 20, 21, 23 and 25 to 28 are about successful cases. Most of these are short and regrettably general in nature. Not easy to read concrete advice for your own situation. The most interesting one was chapter 28, describing seveal unexpected uses of automated tests at Microsoft. Chapter 19 is a study about test automation failures, and this is useful. Probably it is always more easy to learn from failures. Chapters 20 and 22 are very special, they both describe keyword driven test automation design methods. Chapter 20 is about the action word method, now called TestFrame, by Hans Buwalda from CMG, whereas chapter 22 is about RadSTAR. Both chapters are useful, as they describe the most modern approach to maintainable test design. However, chapter 22 could be more detailed.
+In all, I found less use for part 2 of the book, probably because I have heard some of the stories before, at conferences. It may be different to a person new to the field. I was missing more case studies about atuomated tests of other than business systems. There is a lot of automation to be done in this field, and very often there is no alternaitve to automated testing.
+In all: Buy the book. In the worst case, chapters 5 and 6 only create benetitfs enough to make it worth the money.
+Hans Schaefer
+
+If you can only get one book on software test automation, this is the book I would grab. While I admit that it is a little dated, the core concepts for software automation contained in them are as sound as it gets.
+
+This book covers all the key automation concepts, including:
+* Principles for good automation script
+* What constitutes a good versus a bad test script
+* Which tests should be automated
+* Choosing an appropriate test tool
+* Case studies and countless other essential topics.
+
+This is a must buy!
+
+Joe Colantonio
+@JoeColantonio.com
+
+I've written code that shipped in 1 to 2 million units. I also did an academic post-doc in computer science at a good university.
+
+Testing is not just underappreciated in the academic community it is widely misunderstood. Academicians are fascinated by questions like how do you create a program to test your programs. By comparison the automation of human designed tests is not academically worthy. But this is most of what separates commercial grade code from research code. It is what creates 99% of the economic value of testing. And done well it elevates the status of testing from clerical work to top-tier design work. This book explains why this is true. Armed with that insight, a skilled technologist will be able to work through the rest of the details.
+
+Nevertheless, the book offers quite a few recipes. None of which can be implemented without a skilled technologist capable of working without a recipe, but all of which enhance the value of the book.
+
+Really a rare gem.
+
+Very practical book, where both parts are very valuable - 1st part offers insight into what automated testing is and what it's not managaing expectations perfectly; 2nd part provides with real-life examples of attampets to automate testing - and it's not only success stories but rather real-life examples. Great reading for test lead/development lead/project manager who thinks about automating testing.
+
+I found this book to be a solid roundup of good practices within automated software testing.
+It doesn't provide any startling new techniques, but makes a good job of explaining the common pitfalls that are usually encountered when trying to automate testcases, and provides good advice for how to get the best out of commercial tools such as the one available from julianjones.com.
+The writing style can be a bit dry, and there are times when the thought of reading 500 pages can be a bit daunting.
+All things considered, highly recommended.
+
+Hi
+This book deals with various issues of Automation such
+as basic concepts, impelementation details. It has various
+case studies also. A must for those who are considering
+for testing automation.
+It should have more coverage for data driven automation.
+[Niteen]
+
+Great delineation on how to utilize test execution tools. Their explaination is great. The bottom line is " that it is a gem of a book. I would recommend it highly to all level of SQA professionals!"
+
+The book theoritically explains testing in great detail.It would have been an awesome book if it had a software part to it.Lack of software makes the learning experience incomplete but still the book is worth the money.
+
+this book will give you a clear idea about how does test automation works. strictly concentrating on automation but the Build explanations with clear GUI's are pretty much helpful
+
+Ordered for work related study. Arrived promptly, great condition.
+
+Not very usefull book,concept are bit too vague I do not recommend it. May be useful for very novice tester.
+

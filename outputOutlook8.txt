@@ -1,0 +1,126 @@
+Dec 1, 2021
+HubSpot plug-in not working on Outlook
+I recently connected my outlook to HubSpot, however; nothing is tracking. No conversation history, no email logs, etc. Its essentially useless at this time
+What problem are you trying to solve?
+All email correspondence.
+What do you like?
+Would be great if this worked properly
+Will Biestek
+Real Estate2 to 5 employees
+Helpful (0)Report
+
+
+Nov 30, 2021
+Limited functionality
+The Outlook side panel in HubSpot has limited functionality, especially when compared with the similar function for the Salesforce side panel. You are not able to directly attach emails to a contact record or associate with an opportunity or other related item.
+What problem are you trying to solve?
+The Outlook side panel shows information in HubSpot for the client or prospect that is in the relevant email panel.
+What do you like?
+The relevant CRM contact is highlighted in the side panel
+What do you dislike?
+Other than providing reference information for the contact, there is not much functionality or interaction that is facilitated by the side panel
+Tim Saunders
+Information Technology Services51 to 200 employees
+Helpful (0)Report
+
+
+Nov 30, 2021
+Excellent functionality
+Outlook works well for me enabling my thre edifferent work emails to be shown in one program
+What problem are you trying to solve?
+All of my business emails
+What do you like?
+AS per above - having access to my three different work mails in one screen
+What do you dislike?
+None
+Merrill Isherwood
+Consumer Services2 to 5 employees
+Helpful (0)Report
+
+
+Nov 30, 2021
+Outlook is the worst for syncing up meetings
+Really wish Outlook had a way for Teams to connect with HubSpot meetings easily so that I could create meetings in HubSpot and have it sent to the right people and with a team meeting link automatically created. Gmail is so much better with HubSpot, but unfortunately stuck with MS for now.
+What problem are you trying to solve?
+Emails and calendar.
+What do you like?
+At least emails are tracked.
+What do you dislike?
+Scheduling meetings.
+Corey Wright
+Venture Capital Private Equity11 to 25 employees
+Helpful (0)Report
+
+
+Nov 29, 2021
+Good but not great
+Outlook is working ok. On the other hand, (not that you are asking about it) but HubSpot add-on is making Outlook fail sometimes, the sidebar seems to be full of bugs, email texts are appearing behind the sidebar with me not being able to see the rest of the text if not shutting the addon down. Although, this does happen only when my other addon "Grammarly" is enabled".
+What problem are you trying to solve?
+Mainly communication between colleagues and associates
+What do you like?
+Sending emails
+What do you dislike?
+HubSpot asking questions about the use of Outlook.
+Chris Blackbird
+Research201 to 1,000 employees
+Helpful (0)Report
+
+
+Nov 29, 2021
+Outlook Outlook + HubSpot
+Outlook is working well for client facing emails. It's a easy way to manage inbound.
+What problem are you trying to solve?
+To manage external emails
+What do you like?
+Client facing brand
+What do you dislike?
+HubSpot keeps crashing Outlook. Can't add tasks via add in either.
+Caldon Pike
+Financial Services51 to 200 employees
+Helpful (0)Report
+
+
+Nov 24, 2021
+Wasted 2 Days trying to install HubSpot Office 365 connector
+Still not a clean integration to capture emails to prospects. Sometimes it works and other times it doesn't. I have to waste time searching for instruction on how to connect HubSpot to Office 365.
+What problem are you trying to solve?
+email
+Joe Kilbarger
+Computer Software51 to 200 employees
+Helpful (0)Report
+
+
+Nov 24, 2021
+Poor experience with Outlook integration
+I have to log in with a security code every single day. It opens in Internet Explorer 11 which is not supported. Your tech people could not fix this.
+What problem are you trying to solve?
+Sending emails to client records.
+Jackie McMillan
+Research26 to 50 employees
+Helpful (0)Report
+
+
+Nov 23, 2021
+Review
+outlook + HubSpot is working very well. i like how it syncs emails to HubSpot
+What problem are you trying to solve?
+Emails for work, calendar
+What do you like?
+It syncs emails and meeting (calendar) with HubSpot
+What do you dislike?
+None
+Vy Ngo
+Insurance6 to 10 employees
+Helpful (0)Report
+
+
+Nov 23, 2021
+Muy satisfecho
+Ha funcionado bien y me ayuda en lo que necesito para mis actividades de cada día
+What problem are you trying to solve?
+Correo electrónico y Calendario
+Luis Gabriel Villegas Gomez
+Financial Services1 employee
+Helpful (0)Report
+
+
